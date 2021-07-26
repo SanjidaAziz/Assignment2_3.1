@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    
+   
     <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="css/mystylesheet.css"/>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link type="text/css" rel="stylesheet" href="css/mystylesheet.css"/>
     <title>180204122</title>
 
   </head>
@@ -15,7 +18,7 @@
   	<!-- navbar starts -->
     <header class="header py-3 bg-white">
     	<div class="container text-center ">	    	
-	    	<h2>AUST CSE</h1>	    	
+	    	<h2 class="pt-3 fw-bold">AUST CSE</h1>	    	
 	    	<div class="pt-5">
 	    		<ul class="nav justify-content-center ">
 	    			<li class="nav-item"><a class="nav-link text-dark fw-bolder" href="">HOMEPAGE</a></li>
@@ -31,14 +34,13 @@
     <!-- navbar ends -->
 
     <main>
-    	<!-- Slider starts -->
-   
+    	<!-- Slider starts -->   
     	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   			<div class="carousel-inner container-fluid p-0">
     			<div class=" p-0 carousel-item active position-relative justify-content-center">    				
       				<img class="banner w-100 img-fluid" src="images/banner.jpg" alt="First slide">     				
-      				<div class="txt text-center text-white display-5 d-block position-absolute"><span class="d-block text-center text-white w-100 ">Ahsanullah University of Science & Technology</span>
-      					<p class="display-2 fw-bolder"><strong>CSE 3.1</strong></p>
+      				<div class="banner_txt text-center text-white display-5 d-block position-absolute"><span class="d-block text-center text-light w-100 ">Ahsanullah University of Science & Technology</span>
+      					<p class="display-1 fw-bolder"><strong>CSE 3.1</strong></p>
       				</div>      				      				
     			</div>    			
   			</div>
@@ -56,20 +58,20 @@
     	<!-- Slider ends -->
 
     	<!-- Dark section starts -->
-    	<div class="container-fluid bg-dark text-center">
+    	<div class="container-fluid bg-dark text-center black_banner px-0">
     		<div class="container text-white ">
     			<div class="row py-5">
-	    			<div class="col-12 col-md-6 col-lg-4 text-primary fs-5 fw-bold py-3 py-md-0 py-lg-0">
+	    			<div class="col-12 col-md-6 col-lg-4 bluetxt fs-5 fw-bold py-3 py-md-0 py-lg-0">
 	    				CALL US 24/7
-	    				<div class="text-white fs-2 fw-normal">+123-456-7890</div>
+	    				<div class="text-white fs-2 fw-normal text-muted">+123-456-7890</div>
 	    			</div>
-	    			<div class="col-12 col-md-6 col-lg-4 text-primary fs-5 fw-bold py-3 py-md-0 py-lg-0">
+	    			<div class="col-12 col-md-6 col-lg-4 bluetxt fs-5 fw-bold py-3 py-md-0 py-lg-0">
 	    				EMAIL ADDRESS
-	    				<div class="text-white fs-2 fw-normal">example@example.com</div>
+	    				<div class="text-white fs-2 fw-normal text-muted">example@example.com</div>
 	    			</div>
-	    			<div class="col-12 col-md-12 col-lg-4 text-primary fs-5 fw-bold py-3 py-md-3 py-lg-0">
+	    			<div class="col-12 col-md-12 col-lg-4 bluetxt fs-5 fw-bold py-3 py-md-3 py-lg-0">
 	    				OPEN HOURS
-	    				<div class="text-white fs-2 fw-normal">Daily 9:00-20:00</div>
+	    				<div class="text-white fs-2 fw-normal text-muted">Daily 9:00-20:00</div>
 	    			</div>
 	    		</div>
 
@@ -80,30 +82,29 @@
 
     	<!-- light section starts -->
     	
-
     	<div class="container-fluid bg-light text-center light_banner px-0">
 			<div class="container">
 				<div class="row gx-5 justify-content-center">
 					<div class="col-12 col-md-6 col-lg-4 py-4 py-md-3 py-lg-3 px-3">
-						<div class="blk p-4 pb-5 bg-white text-wrap w-100">
+						<div class="blk p-4 pb-5 bg-white text-wrap w-100 shadow">
 							<img class="icons img-fluid  rounded-circle " src="images/icon1.png" />					
-							<h4 class="pt-4 pb-3" >Highly Secure</h4>
+							<h4 class="pt-4 pb-3 fw-bold" >Highly Secure</h4>
 							<p class="text-muted  fs-5 py-3 px-5">Cloud-Based services can offer our customers single tenant  dedicated environments</p>
 						</div>								
 					</div>
 					
 					<div class="col-12 col-md-6 col-lg-4 py-4 py-md-3 py-lg-3 px-3">
-						<div class="blk p-4 pb-5 bg-white text-wrap w-100">
+						<div class="blk p-4 pb-5 bg-white text-wrap w-100 shadow">
 							<img class="icons img-fluid  rounded-circle " src="images/icon2.png" />												
-							<h4 class="pt-4 pb-3" >True Cloud Scale</h4>
+							<h4 class="pt-4 pb-3 fw-bold" >True Cloud Scale</h4>
 							<p class="text-muted  fs-5 py-3 px-5">Working with customers making 100-40,000 hires per annum</p>
 						</div>							
 					</div>
 
 					<div class="col-12 col-md-12 col-lg-4 py-5 py-md-5 py-lg-3 px-3 ">
-						<div class="blk p-4 pb-5 bg-white text-wrap w-100">
+						<div class="blk p-4 pb-5 bg-white text-wrap w-100 shadow">
 							<img class="icons img-fluid  rounded-circle " src="images/icon3.png" />											
-							<h4 class="pt-4 pb-3" >Accurate Data</h4>
+							<h4 class="pt-4 pb-3 fw-bold" >Accurate Data</h4>
 							<p class="text-muted  fs-5 py-3 px-5">All of our customers' data is validated. We build accurate data banks for reporting</p>
 						</div>							
 					</div>
@@ -120,8 +121,8 @@
 				<div class="row gx-5 justify-content-center">
 					<div class=" col-12 col-md-6 col-lg-4 py-4 py-md-4 py-lg-3 px-3">
 						<div class="blk p-4 border border-4 text-wrap w-100">					
-							<h1 class="fw-bolder pt-5">About Us</h1>
-							<p class="fs-5 p-4 ">Good content is everything. In a world that is oversaturated with content, you'll learn successful writers and blogfers how to creat content that matters resonates with your audience.</p> 
+							<h2 class="fw-bolder pt-5">About Us</h2>
+							<p class="fs-5 p-3 ">Good content is everything. In a world that is oversaturated with content, you'll learn successful writers and blogfers how to creat content that matters resonates with your audience.</p> 
 						</div>								
 					</div>
 					
@@ -131,7 +132,7 @@
 					
 					<div class="col-12 col-md-6 col-lg-4 py-4 py-md-4 py-lg-3 px-3">
 						<div class=" blk p-4 border border-4 text-wrap w-100">					
-							<h1 class="fw-bolder pt-5">Our Strategy</h1>
+							<h2 class="fw-bolder pt-5">Our Strategy</h2>
 							<p class="fs-5 p-3">Sometimes the hardest part is knowing what to say and when to say it. At Lines, you'll get the downlow on how to craft retweetable messages, when to post content, and what platforms you should be using</p> 						
 						</div>								
 					</div>
@@ -142,10 +143,11 @@
 
 					<div class=" col-12 col-md-6 col-lg-4 py-4 py-md-4 py-lg-3 px-3">
 						<div class="blk p-4 bg-dark text-wrap w-100">
-							<h1 class="fw-bolder pt-5 ">Our Mission</h1>
-							<p class="fs-5 py-4">Good content is everything. In a world that is oversaturated with content, you'll learn successful writers and blogfers how to creat content that matters resonates with your audience.</p> 							
+							<h2 class="fw-bolder pt-5 ">Our Mission</h2>
+							<p class="fs-5 p-3">Good content is everything. In a world that is oversaturated with content, you'll learn successful writers and blogfers how to creat content that matters resonates with your audience.</p> 							
 						</div>							
 					</div>
+
 					<div class=" col-12 col-md-6 col-lg-4 py-4 py-md-4 py-lg-3 px-3">						
 						<img class="img-fluid w-100" src="images/grid1.jpg" />
 					</div>							
@@ -156,7 +158,7 @@
 
     	<!-- Blog section starts -->
     	
-		<div class="container-fluid text-center blogpost">
+		<div class="container-fluid text-center blogpost px-0">
 
 			<div class="fs-4 text-muted pt-5">OUR<br>
     			<h1 class="fs-1 text-dark pb-5">BLOG POSTS</h1>
@@ -165,13 +167,15 @@
 			<div class="container px-0">
 				<div class="row card-deck justify-content-center ">
 				    <div class="col-12 col-md-6 col-lg-4 p-3 card border-white">
-				    	
+
 				    	<img class="card-img-top" src="images/blog1.jpg" alt="Card image cap">
-					    <div class="card-body border">
-					    	<h4 class="card-title pt-4 pb-3">Getting More For Your Money</h4>
-					    	<p class="card-text text-muted  fs-5 p-4">The majority of business will have a degree of reliance on recruiment suppliers...</p>
+
+					    <div class="card-body border shadow-sm ">
+					    	<h5 class="card-title px-5 py-4 fw-bold">Getting More For Your Money</h5>
+					    	<p class="card-text text-muted  fs-5 p-5 pt-2">The majority of business will have a degree of reliance on recruiment suppliers...</p>
 					    </div>
-					    <div class="card-footer p-0 m-0 text-center">
+
+					    <div class="card-footer p-0 m-0 text-center shadow-sm border-0">
 					    	<div class="blk row m-0  text-wrap w-100">
 								<div class="col-4 border py-3">
 									<img class="w-25 p-1" src="images/icon4.png" />
@@ -179,24 +183,25 @@
 								</div>
 								<div class="col-4 border py-3">
 									<img class=" w-25 p-1" src="images/icon5.png" />
-									<h6 class="m-0 ftr">AUGUST 6,2017</h6>
+									<h6 class="m-0 ftr">AUGUST 6, 2017</h6>
 								</div>
 								<div class="col-4 border py-3">
 									<img class=" w-25 p-1" src="images/icon6.png" />
 									<h6 class="m-0 ftr">NEWS</h6>
 								</div>
 							</div>
-					    </div>
-						
+					    </div>						
 				    </div>
 					<div class="col-12 col-md-6 col-lg-4 p-3 card border-white ">
 						
 				    	<img class="card-img-top" src="images/blog2.jpg" alt="Card image cap">
-					    <div class="card-body border">
-					    	<h4 class="card-title pt-4 pb-3">Post With Youtube Video</h4>
-					    	<p class="card-text text-muted  fs-5 p-4">Ribeya cupim jerky ham. Fatback sausage shoulder, bresaola boudin hamburger pork turkey</p>
+
+					    <div class="card-body border shadow-sm">
+					    	<h5 class="card-title px-5 py-4 fw-bold">Post With Youtube Video</h5>
+					    	<p class="card-text text-muted  fs-5 p-5 pt-2">Ribeye cupim jerky ham. Fatback sausage shoulder, bresaola boudin hamburger pork turkey</p>
 					    </div>
-					    <div class="card-footer p-0 m-0 text-center ">
+
+					    <div class="card-footer p-0 m-0 text-center shadow-sm border-0">
 					    	<div class="blk row m-0  text-wrap w-100">
 								<div class="col-4 border py-3">
 									<img class="w-25 p-1" src="images/icon4.png" />
@@ -211,18 +216,18 @@
 									<h6 class="m-0 ftr">POST</h6>
 								</div>
 							</div>
-					    </div>
-						
+					    </div>						
 					</div>
 
-					<div class="col-12 col-md-6 col-lg-4 p-3 card border-white">
-						
+					<div class="col-12 col-md-6 col-lg-4 p-3 card border-white">						
 				    	<img class="card-img-top" src="images/blog3.jpg" alt="Card image cap">
-					    <div class="card-body border">
-					    	<h4 class="card-title pt-4 pb-3">Post format: Image</h4>
-					    	<p class="card-text text-muted  fs-5 p-4">Beef beef ribs pancetta sirloin tail brisket strip steak chuck swine franfurter ham hock keilbasa</p>
+
+					    <div class="card-body border shadow-sm">
+					    	<h5 class="card-title px-5 py-4 fw-bold">Post format: Image</h5>
+					    	<p class="card-text text-muted  fs-5 p-5 pt-2">Beef beef ribs pancetta sirloin tail brisket strip steak chuck swine franfurter ham hock keilbasa</p>
 					    </div>
-					    <div class="card-footer p-0 m-0 text-center">
+
+					    <div class="card-footer p-0 m-0 text-center shadow-sm border-0">
 					    	<div class="blk row m-0  text-wrap w-100">
 								<div class="col-4 border py-3">
 									<img class="w-25 p-1" src="images/icon4.png" />
@@ -250,7 +255,7 @@
     <footer>
     	<div class="container-fluid px-o py-5 bg-dark text-center text-white">
     		<div class="container py-4">
-    			<h4>© Copyright 2021. All Rights Reserved</h4>
+    			<h5>© Copyright 2021. All Rights Reserved</h5>
     		</div>
     	</div>
     </footer>
